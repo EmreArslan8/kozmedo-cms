@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkozmedo_cms=self.webpackChunkkozmedo_cms||[]).push([[92],{28465:(P,t,e)=>{e.r(t),e.d(t,{default:()=>o});var s=e(67294),E=e(31799),n=e(87751),_=e(57692);const o=()=>s.createElement(E.O4,{permissions:n.Z.settings["api-tokens"].read},s.createElement(_.Z,null))}}]);
