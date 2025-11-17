@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_shop_feature_cards",
+  "info": {
+    "displayName": "ShopFeatureCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "compact"
+      ],
+      "required": true,
+      "default": "default"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.shop-feature-card"
+    },
+    "gridOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.grid-layout-options"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_info_boxes",
+  "info": {
+    "displayName": "InfoBox",
+    "icon": "list-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "infoAreas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.info-area"
+    }
+  }
+}

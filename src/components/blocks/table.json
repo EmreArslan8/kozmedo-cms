@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_tables",
+  "info": {
+    "displayName": "Table",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "filters": {
+      "type": "json",
+      "required": false
+    },
+    "tableItems": {
+      "displayName": "TableItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-item"
+    }
+  }
+}

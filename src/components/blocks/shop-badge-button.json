@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_shop_badge_buttons",
+  "info": {
+    "displayName": "ShopBadgeButtons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "badges": {
+      "displayName": "ShopBadgeButton",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.shop-badge-button"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_shop_search_options",
+  "info": {
+    "displayName": "ShopSearchOptions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "query": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "integer",
+      "required": false,
+      "max": 7,
+      "min": 1
+    },
+    "ph": {
+      "type": "string"
+    },
+    "xt": {
+      "type": "string"
+    },
+    "sort": {
+      "type": "enumeration",
+      "enum": [
+        "rcc",
+        "dsc",
+        "asc",
+        "bst",
+        "fav",
+        "rct"
+      ]
+    },
+    "collection": {
+      "type": "string"
+    }
+  }
+}

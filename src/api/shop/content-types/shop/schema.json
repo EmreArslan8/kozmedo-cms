@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shops",
+  "info": {
+    "singularName": "shop",
+    "pluralName": "shops",
+    "displayName": "ShopIndex",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+      
+      },
+      "type": "string",
+      "private": true,
+      "default": "New Shop Index Page (visible in CMS dashboard only)",
+      "required": false
+    },
+    "title": {
+      "pluginOptions": {
+      },
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {
+       
+      },
+      "type": "string",
+      "required": false,
+      "regex": "^[a-zA-Z][a-zA-Z\\-/]*$"
+    },
+    "uid": {
+      "pluginOptions": {
+        
+      },
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "blocks": {
+      "pluginOptions": {
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.shop-feature-cards",
+        "blocks.shop-feature-box",
+        "blocks.free-text",
+        "blocks.faq",
+        "blocks.shop-banner",
+        "blocks.shop-inline-products",
+        "blocks.shop-ribbon",
+        "blocks.shop-info-areas",
+        "blocks.shop-badge-button"
+      ]
+    },
+    "gap": {
+      "pluginOptions": {
+      },
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "medium",
+      "required": true
+    }
+  }
+}

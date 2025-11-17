@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_blocks_shop_ribbons",
+  "info": {
+    "displayName": "ShopRibbon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "colorway": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "info",
+        "success",
+        "error",
+        "warning"
+      ],
+      "required": true,
+      "default": "primary"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

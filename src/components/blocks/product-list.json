@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_product_lists",
+  "info": {
+    "displayName": "ProductList",
+    "icon": "shopping-basket",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "label": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "string",
+      "regex": "^[ \\t]*[^,]+(?:[ \\t-][^,]+)*[ \\t]*(?:,[ \\t]*[^,]+(?:[ \\t-][^,]+)*[ \\t]*)+$"
+    },
+    "products": {
+      "displayName": "Product",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

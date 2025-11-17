@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_social_posts",
+  "info": {
+    "displayName": "SocialPost",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "caption": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "string"
+    }
+  }
+}

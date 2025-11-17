@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_how_it_works_items",
+  "info": {
+    "displayName": "HowItWorksItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "overline": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+}

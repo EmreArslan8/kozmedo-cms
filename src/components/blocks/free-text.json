@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_free_texts",
+  "info": {
+    "displayName": "FreeText",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

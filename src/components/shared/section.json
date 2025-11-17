@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_sections",
+  "info": {
+    "displayName": "SectionBase",
+    "icon": "paragraph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeader": {
+      "type": "string"
+    },
+    "sectionDescription": {
+      "type": "richtext"
+    },
+    "sectionBackground": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "primary"
+      ],
+      "required": true,
+      "default": "default"
+    }
+  }
+}

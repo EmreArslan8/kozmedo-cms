@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_fixed_prices",
+  "info": {
+    "singularName": "shop-fixed-price",
+    "pluralName": "shop-fixed-prices",
+    "displayName": "ShopFixedPrices",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fixedPrices": {
+      "displayName": "ShopFixedPrice",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.shop-fixed-price",
+      "pluginOptions": {}
+    }
+  }
+}

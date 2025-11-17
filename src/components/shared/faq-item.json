@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_faq_items",
+  "info": {
+    "displayName": "FAQItem",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "categories": {
+      "type": "string",
+      "required": true,
+      "regex": "^\\s*[^,]+(?:\\s*,\\s*[^,]+)*\\s*$"
+    }
+  }
+}

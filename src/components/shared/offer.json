@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_offers",
+  "info": {
+    "displayName": "Offer",
+    "icon": "comment-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "chipLabel": {
+      "type": "string"
+    },
+    "chipVariant": {
+      "type": "enumeration",
+      "enum": ["green"],
+      "default": "green"
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_nav_links",
+  "info": {
+    "displayName": "NavLink",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    },
+    "children": {
+      "displayName": "NavLinkChild",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nav-link-child"
+    }
+  }
+}

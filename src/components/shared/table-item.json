@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_table_items",
+  "info": {
+    "displayName": "TableItem"
+  },
+  "options": {},
+  "attributes": {
+    "filters": {
+      "type": "json"
+    },
+    "data": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

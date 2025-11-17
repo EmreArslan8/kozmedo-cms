@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_social_posts",
+  "info": {
+    "displayName": "SocialPosts",
+    "icon": "share-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "posts": {
+      "displayName": "SocialPost",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-post"
+    }
+  }
+}

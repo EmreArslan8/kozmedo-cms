@@ -1,0 +1,85 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Color using the **Markdown bold syntax**"
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
+    },
+    "button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video": {
+      "displayName": "Video",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.video"
+    },
+    "brands": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "fullHeight": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "dark"
+      ],
+      "required": true,
+      "default": "purple"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "referencesLabel": {
+      "type": "string"
+    },
+    "references": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "easyBuyInput": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

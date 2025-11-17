@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_prohibited_items",
+  "info": {
+    "displayName": "ProhibitedItem",
+    "icon": "skull",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

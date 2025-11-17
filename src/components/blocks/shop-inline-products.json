@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_shop_inline_products",
+  "info": {
+    "displayName": "ShopInlineProducts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "cta": {
+      "type": "string",
+      "required": true
+    },
+    "searchOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shop-search-options"
+    },
+    "displayType": {
+      "type": "enumeration",
+      "enum": [
+        "slider",
+        "grid"
+      ],
+      "required": true,
+      "default": "slider"
+    }
+  }
+}

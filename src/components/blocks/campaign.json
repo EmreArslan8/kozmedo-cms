@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_blocks_campaigns",
+  "info": {
+    "displayName": "Campaign",
+    "description": "",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "countdownLabel": {
+      "type": "string"
+    },
+    "countdownDate": {
+      "type": "datetime",
+      "required": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.product"
+    }
+  }
+}

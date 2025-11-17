@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_brands",
+  "info": {
+    "displayName": "Brand",
+    "icon": "circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "string",
+      "required": false,
+      "regex": "^[ \\t]*([^,]+(?:[ \\t-][^,]+)*[ \\t]*)(?:,[ \\t]*([^,]+(?:[ \\t-][^,]+)*[ \\t]*))*$"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "/"
+    }
+  }
+}

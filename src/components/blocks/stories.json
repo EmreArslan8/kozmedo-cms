@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_stories",
+  "info": {
+    "displayName": "Stories",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "token": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

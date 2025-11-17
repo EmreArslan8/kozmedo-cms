@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_shipping_calculators",
+  "info": {
+    "displayName": "ShippingCalculator",
+    "icon": "calculator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_shop_coupons",
+  "info": {
+    "displayName": "ShopCoupon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "discountPercent": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "max": 100
+    },
+    "startDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "endDate": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}

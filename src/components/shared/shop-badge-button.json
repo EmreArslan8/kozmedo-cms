@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_shop_badge_buttons",
+  "info": {
+    "displayName": "ShopBadgeButton"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

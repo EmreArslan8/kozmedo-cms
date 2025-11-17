@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_coupon_sets",
+  "info": {
+    "singularName": "shop-coupon-set",
+    "pluralName": "shop-coupon-sets",
+    "displayName": "ShopCouponSet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coupons": {
+      "displayName": "ShopCoupon",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.shop-coupon"
+    }
+  }
+}

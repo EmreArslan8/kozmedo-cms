@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_offer_lists",
+  "info": {
+    "displayName": "OfferList",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "offers": {
+      "displayName": "Offer",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.offer",
+      "max": 3,
+      "min": 2
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

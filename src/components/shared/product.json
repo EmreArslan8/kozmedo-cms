@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_products",
+  "info": {
+    "displayName": "Product",
+    "icon": "tshirt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "brand": {
+      "type": "string",
+      "required": false
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "categories": {
+      "type": "string",
+      "regex": "^[ \\t]*([^,]+(?:[ \\t-][^,]+)*[ \\t]*)(?:,[ \\t]*([^,]+(?:[ \\t-][^,]+)*[ \\t]*))*$",
+      "required": false
+    },
+    "currentPrice": {
+      "type": "string",
+      "required": false
+    },
+    "originalPrice": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

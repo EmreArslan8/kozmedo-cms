@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_info_area_lists",
+  "info": {
+    "displayName": "InfoAreaList",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "infoAreas": {
+      "displayName": "InfoArea",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.info-area"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "regular",
+        "card"
+      ],
+      "default": "regular"
+    }
+  }
+}

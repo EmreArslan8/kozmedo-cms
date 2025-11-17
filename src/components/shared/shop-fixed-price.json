@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_shop_fixed_prices",
+  "info": {
+    "displayName": "ShopFixedPrice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "productId": {
+      "type": "text",
+      "required": true
+    },
+    "price": {
+      "displayName": "ShopPrice",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shop-price"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_shop_prices",
+  "info": {
+    "displayName": "ShopPrice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "currency": {
+      "type": "string",
+      "required": true
+    },
+    "originalPrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "currentPrice": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

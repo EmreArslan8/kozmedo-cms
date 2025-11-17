@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.section",
+        "blocks.hero",
+        "blocks.social-posts",
+        "blocks.banner",
+        "blocks.info-area-list",
+        "blocks.product-list",
+        "blocks.campaign",
+        "blocks.stepper",
+        "blocks.offer-list",
+        "blocks.info-box",
+        "blocks.table",
+        "blocks.faq",
+        "blocks.brand-grid",
+        "blocks.feature-box",
+        "blocks.prohibited-items",
+        "blocks.shipping-calculator",
+        "blocks.free-text",
+        "blocks.testimonials",
+        "blocks.stories",
+        "blocks.how-it-works"
+      ],
+      "required": true
+    },
+    "seo": {
+      "displayName": "SEO",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "headerColorway": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "regular",
+        "dynamic",
+        "dynamicLight"
+      ],
+      "default": "regular",
+      "required": true
+    }
+  }
+}

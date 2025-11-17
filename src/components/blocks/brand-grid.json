@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_brand_grids",
+  "info": {
+    "displayName": "BrandGrid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "categories": {
+      "type": "string",
+      "required": false,
+      "regex": "^[ \\t]*[^,]+(?:[ \\t-][^,]+)*[ \\t]*(?:,[ \\t]*[^,]+(?:[ \\t-][^,]+)*[ \\t]*)+$"
+    },
+    "brands": {
+      "displayName": "Brand",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.brand",
+      "required": true
+    }
+  }
+}

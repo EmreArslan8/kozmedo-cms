@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_prohibited_items",
+  "info": {
+    "displayName": "ProhibitedItems",
+    "icon": "skull-crossbones",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "items": {
+      "displayName": "ProhibitedItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.prohibited-item"
+    }
+  }
+}

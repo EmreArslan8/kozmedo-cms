@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_steppers",
+  "info": {
+    "displayName": "Stepper",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "steps": {
+      "displayName": "Step",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.step",
+      "required": true,
+      "min": 2
+    }
+  }
+}

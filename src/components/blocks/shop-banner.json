@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_shop_banners",
+  "info": {
+    "displayName": "ShopBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "banners": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.banner"
+    }
+  }
+}

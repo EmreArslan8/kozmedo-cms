@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_how_it_works",
+  "info": {
+    "displayName": "HowItWorks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "items": {
+      "displayName": "HowItWorksItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.how-it-works-item",
+      "required": true
+    }
+  }
+}

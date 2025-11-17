@@ -1,0 +1,81 @@
+{
+  "collectionName": "components_blocks_feature_boxes",
+  "info": {
+    "displayName": "FeatureBox",
+    "icon": "box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primaryCard",
+        "regularCard",
+        "transparent"
+      ],
+      "required": true,
+      "default": "primaryCard"
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "titleVariant": {
+      "type": "enumeration",
+      "enum": [
+        "regular",
+        "primary",
+        "small"
+      ],
+      "required": true,
+      "default": "regular"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "required": true,
+      "default": "right"
+    },
+    "infoAreas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.info-area"
+    },
+    "imageFit": {
+      "type": "enumeration",
+      "enum": [
+        "cover",
+        "contain"
+      ],
+      "default": "cover"
+    }
+  }
+}

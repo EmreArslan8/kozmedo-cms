@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_feature_cards",
+  "info": {
+    "displayName": "FeatureCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature-card"
+    },
+    "compact": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

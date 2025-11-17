@@ -1,0 +1,25 @@
+{
+  "name": "preview-button",
+  "version": "0.0.0",
+  "description": "Displays a preview button when editing content.",
+  "strapi": {
+    "name": "preview-button",
+    "description": "Displays a preview button when editing content.",
+    "kind": "plugin",
+    "displayName": "Preview Button"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Navlungo"
+  },
+  "maintainers": [
+    {
+      "name": "Navlungo"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
