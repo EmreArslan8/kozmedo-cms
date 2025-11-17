@@ -1,1 +1,53 @@
-node_modules
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# --- Strapi Build ---
+.build/
+dist/
+
+# Strapi temporary files
+.tmp/
+.cache/
+
+# --- SQLite Database ---
+# !!! Kalıcı DB dosyamız "database/data.db"
+# Bu klasörü ve dosyayı ignore ETMİYORUZ.
+# Eğer başka tmp/db dosyaları varsa ignore et:
+*.db-shm
+*.db-wal
+
+# --- Uploads (Strapi) ---
+# Eğer upload provider olarak "local" kullanıyorsan
+# public/uploads klasörünü git’e ekleme
+public/uploads/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- IDE & OS Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Build outputs (Next.js) ---
+.next/
+out/
+
+# --- Testing ---
+coverage/
+
+# --- Lock Files (isteğe bağlı) ---
+# package-lock.json
+# yarn.lock
